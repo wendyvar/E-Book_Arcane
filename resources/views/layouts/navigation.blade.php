@@ -61,7 +61,7 @@
                         {{ __('Login') }}
                     </x-nav-link>
                     <x-nav-link :href="route('register')">
-                        {{ __('Register') }}
+                        {{ __('Registreer') }}
                     </x-nav-link>
                 @endauth
             </div>

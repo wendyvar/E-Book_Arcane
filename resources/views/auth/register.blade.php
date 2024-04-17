@@ -44,7 +44,7 @@
 
         <!-- Name -->
         <div>
-            <label for="name" class="block font-medium text-sm text-gray-700">{{ __('Name') }}</label>
+            <label for="name" class="block font-medium text-sm text-gray-700">{{ __('Naam') }}</label>
             <input id="name" type="text" name="name" value="{{ old('name') }}" required autofocus autocomplete="name" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-indigo-500 focus:ring focus:ring-indigo-500 focus:ring-opacity-50" />
             <x-input-error :messages="$errors->get('name')" class="mt-2" />
         </div>
@@ -58,14 +58,14 @@
 
         <!-- Password -->
         <div class="mt-4">
-            <label for="password" class="block font-medium text-sm text-gray-700">{{ __('Password') }}</label>
+            <label for="password" class="block font-medium text-sm text-gray-700">{{ __('Wachtwoord') }}</label>
             <input id="password" type="password" name="password" required autocomplete="new-password" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-indigo-500 focus:ring focus:ring-indigo-500 focus:ring-opacity-50" />
             <x-input-error :messages="$errors->get('password')" class="mt-2" />
         </div>
 
         <!-- Confirm Password -->
         <div class="mt-4">
-            <label for="password_confirmation" class="block font-medium text-sm text-gray-700">{{ __('Confirm Password') }}</label>
+            <label for="password_confirmation" class="block font-medium text-sm text-gray-700">{{ __('Wachtwoord bevestigen') }}</label>
             <input id="password_confirmation" type="password" name="password_confirmation" required autocomplete="new-password" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-indigo-500 focus:ring focus:ring-indigo-500 focus:ring-opacity-50" />
             <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
         </div>
@@ -73,11 +73,11 @@
         <!-- Registration and Login Link -->
         <div class="flex items-center justify-between mt-4">
             <a class="text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
-                {{ __('Already registered?') }}
+                {{ __('Al geregistreerd?') }}
             </a>
 
             <button type="submit" class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:border-indigo-700 focus:ring focus:ring-indigo-700 focus:ring-opacity-50">
-                {{ __('Register') }}
+                {{ __('Registreer') }}
             </button>
         </div>
     </form>
