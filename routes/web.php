@@ -1,13 +1,24 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-
 Route::get('/', function () {
-    return view('welcome'); // Make sure 'welcome' is the name of your view file in the `resources/views` directory.
-})->name('welcome');
+    return view('welcome');
+})->name('welcome'); // Naming the home route "welcome"
 
-Route::namespace('App\Http\Controllers')->group(function () {
-    Route::get('/products', 'ProductController@index');
+Route::get('/e-books', function () {
+    return view('ebooks');
+})->name('ebooks');
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+require __DIR__.'/auth.php';
