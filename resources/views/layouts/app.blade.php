@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
-   
+
 
     <!-- App CSS -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
@@ -31,12 +31,14 @@
         @media only screen and (min-width: 992px) { .responsive-text { font-size: 18px; }}
         @media only screen and (min-width: 1200px) { .responsive-text { font-size: 20px; }}
     </style>
+
+
 </head>
 <body>
 <main class="py-4">
     @yield('content')
 
-    <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-light gradient-custom" style="background-color: #e0455f; background-image: linear-gradient(147deg, #e0455f 0%, #44000b 74%);">
+    <nav class="navbar navbar-expand-sm navbar-dark fixed bg-light gradient-custom" style="background-color: #e0455f; background-image: linear-gradient(147deg, #e0455f 0%, #44000b 74%);">
         <div class="container-fluid">
             <!-- Logo -->
             <a class="navbar-brand" href="#" style="background-image: url('https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg'); background-size: contain; background-repeat: no-repeat; width: 100px; height: 20px;"></a>
@@ -53,7 +55,7 @@
                         <a class="nav-link" href="{{ route('welcome') }}">{{ __('Welcome') }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('') }}">{{ __('') }}</a>
+                        <a class="nav-link" href=""></a>
                     </li>
                 </ul>
 
@@ -110,7 +112,7 @@
 <footer style="position: fixed; bottom: 0; width: 100%; text-align: center; background-color: #4d4855; background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);">
     <div style="color: white; padding: 15px;">
         © 2024 Copyright:
-        <a class="text-light" href="https://www.windesheim.nl/opleidingen/voltijd/ad/software-development/">4-Wendy, Emma, Kim, Joel</a>
+        <a class="text-light" href="https://www.windesheim.nl/opleidingen/voltijd/ad/software-development/">E-Book Arcane</a>
     </div>
 </footer>
 </body>
