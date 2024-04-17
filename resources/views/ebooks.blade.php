@@ -24,7 +24,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
             <!-- Image Section -->
             <div class="w-1/2">
-                <img src="https://static.vecteezy.com/system/resources/previews/018/742/266/non_2x/3d-minimal-opened-book-flying-with-another-books-back-to-school-concept-3d-illustration-free-png.png" alt="E-Books" style="width: 50%;" class="mx-auto mb-4 h-auto">
+                <img src="https://static.vecteezy.com/system/resources/previews/011/382/044/original/man-and-woman-sitting-on-big-pile-of-books-using-tablet-laptop-and-book-3d-character-illustration-png.png" alt="E-Books" style="width: 60%;" class="mx-auto mb-4 h-auto">
             </div>
             <!-- Text Section -->
             <div class="w-1/2 flex flex-col items-center justify-center">

@@ -59,14 +59,14 @@
         </div>
     </section>
 
-        <section class="bg-gradient-to-r from-red-500 to-red-700">
+        <section class="bg-gradient-to-r from-red-500 to-red-400">
             <div class="h-12"></div>
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
                 <!-- Icon -->
                 <!-- Text Centered and more compact -->
                 <div class="w-3/4 text-center">
 
-                    <img src="https://cdn-icons-png.flaticon.com/512/1605/1605753.png" alt="Descriptive Alt Text" style="width: 10%;" class="mx-auto mb-4">
+                    <img src="https://cdn3d.iconscout.com/3d/premium/thumb/boy-reading-book-while-sitting-on-couch-4964070-4137619.png" alt="Descriptive Alt Text" style="width: 25%;" class="mx-auto mb-4">
                     <h2 class="text-3xl font-semibold text-white mb-4">Jouw brein houdt van lezen</h2>
                     <p class="text-lg text-white">
                         Ontdek een wereld van literaire diversiteit op onze website, waar we een uitgebreide verzameling boeken aanbieden, variërend van klassieke romans tot eigentijdse fictie.
