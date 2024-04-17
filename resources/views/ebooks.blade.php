@@ -28,7 +28,7 @@
             </div>
             <!-- Text Section -->
             <div class="w-1/2 flex flex-col items-center justify-center">
-                <h2 class="text-3xl font-semibold text-white mb-4 text-center">E-Books</h2>
+                <h2 class="text-3xl font-semibold text-white mb-6 text-center">E-Books</h2>
                 <p class="text-center text-white leading-relaxed">
                     Ontdek een wereld van literaire diversiteit op onze website, waar we een uitgebreide verzameling boeken aanbieden, variërend van klassieke romans tot eigentijdse fictie.
                     Of je nu fan bent van epische fantasie, meeslepende thrillers, hartverwarmende romans of spannende manga en comics, je vindt hier gegarandeerd iets dat bij je smaak past.
@@ -40,7 +40,7 @@
         <div class="h-12"></div>
     </section>
 
-    <section class="py-8 bg-gradient-to-r from-gray-600 to-gray-700">
+    <section class="py-8 bg-gradient-to-r from-purple-950 to-blue-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <!-- Card 1 -->
         <div class="bg-white shadow-md rounded-lg overflow-hidden">

@@ -18,7 +18,7 @@
     </head>
     <body>
     @section('content')
-        <section class="bg-gradient-to-r from-white to-blue-800">
+        <section class="bg-gradient-to-r from-purple-50 to-blue-400">
         <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-6 py-4 flex items-center"> <!-- Removed h-screen class -->
             <div class="flex flex-col lg:flex-row w-full"> <!-- Removed h-90vh class -->
                 <!-- Text container on the left -->
@@ -30,8 +30,8 @@
 
 
 
-                            <button class="bg-blue-600 hover:bg-blue-700 font-semibold py-2 px-4 rounded text-white">
-                            Ontdekt nu
+                            <button class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none  focus:ring-opacity-50text-white">
+                           E-Books
                         </button>
                     </div>
                 </div>
@@ -59,21 +59,18 @@
         </div>
     </section>
 
-        <section class="bg-gradient-to-r from-red-500 to-red-400">
+        <section class="bg-gradient-to-r from-yellow-300 to-orange-700">
             <div class="h-12"></div>
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
-                <!-- Icon -->
                 <!-- Text Centered and more compact -->
                 <div class="w-3/4 text-center">
 
                     <img src="https://cdn3d.iconscout.com/3d/premium/thumb/boy-reading-book-while-sitting-on-couch-4964070-4137619.png" alt="Descriptive Alt Text" style="width: 25%;" class="mx-auto mb-4">
                     <h2 class="text-3xl font-semibold text-white mb-4">Jouw brein houdt van lezen</h2>
                     <p class="text-lg text-white">
-                        Ontdek een wereld van literaire diversiteit op onze website, waar we een uitgebreide verzameling boeken aanbieden, variërend van klassieke romans tot eigentijdse fictie.
-                        Of je nu fan bent van epische fantasie, meeslepende thrillers, hartverwarmende romans of spannende manga en comics, je vindt hier gegarandeerd iets dat bij je smaak past.
-                        Duik in de rijke verhalen van populaire auteurs en ontdek nieuwe werelden en personages om te verkennen.
-                        Welkom bij jouw bestemming voor een avontuurlijke leeservaring!.
-                    </p>
+                        Ontdek een wereld van kennis en avontuur met onze uitgebreide collectie eBooks. Of je nu op zoek bent naar de nieuwste bestsellers, klassieke literatuur, boeiende non-fictie of leerzame zelfhulpboeken, je vindt het allemaal hier. Onze gebruiksvriendelijke website biedt snelle toegang tot een divers assortiment van titels die je direct kunt downloaden op je favoriete leesapparaat.
+
+                        </p>
                 </div>
                 <div class="h-12"></div>
             </div>
