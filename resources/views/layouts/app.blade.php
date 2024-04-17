@@ -39,12 +39,11 @@
     <footer><footer class="bg-gray-900 text-gray-300 py-4">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
                 <!-- Left side content -->
-                <p>&copy; 2024 Your Company. All rights reserved.</p>
+                <p>&copy; 2024 E-Book Arcane. All rights reserved.</p>
 
                 <!-- Right side content -->
                 <ul class="flex space-x-4">
-                    <li><a href="#" class="hover:text-gray-400">Home</a></li>
-                    <li><a href="#" class="hover:text-gray-400">About</a></li>
+                    <li><a href="#" class="hover:text-gray-400">E-Books</a></li>
                     <li><a href="#" class="hover:text-gray-400">Contact</a></li>
                 </ul>
             </div>

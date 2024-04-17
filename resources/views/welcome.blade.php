@@ -18,7 +18,7 @@
     </head>
     <body>
     @section('content')
-        <section class="bg-gradient-to-r from-white to-blue-600">
+        <section class="bg-gradient-to-r from-white to-blue-800">
         <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-6 py-4 flex items-center"> <!-- Removed h-screen class -->
             <div class="flex flex-col lg:flex-row w-full"> <!-- Removed h-90vh class -->
                 <!-- Text container on the left -->
@@ -59,7 +59,8 @@
         </div>
     </section>
 
-        <section class="bg-red-800 py-8">
+        <section class="bg-gradient-to-r from-red-500 to-red-700">
+            <div class="h-12"></div>
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
                 <!-- Icon -->
                 <!-- Text Centered and more compact -->
@@ -74,6 +75,7 @@
                         Welkom bij jouw bestemming voor een avontuurlijke leeservaring!.
                     </p>
                 </div>
+                <div class="h-12"></div>
             </div>
         </section>
 
