@@ -43,8 +43,8 @@
 
                 <!-- Right side content -->
                 <ul class="flex space-x-4">
-                    <li><a href="#" class="hover:text-gray-400">E-Books</a></li>
-                    <li><a href="#" class="hover:text-gray-400">Jouw account</a></li>
+                    <li><a href="/e-books" class="hover:text-gray-400">E-Books</a></li>
+                    <li><a href="/login" class="hover:text-gray-400">Jouw account</a></li>
                 </ul>
             </div>
         </footer>

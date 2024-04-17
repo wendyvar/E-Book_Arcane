@@ -35,7 +35,7 @@
         <div class="relative z-10 p-8 text-white">
     <!-- Registration Text -->
     <div class="max-w-md mx-auto mt-10 text-center">
-        <p class="text-lg text-white-700">Registreer om een e-book te kunnen kopen.</p>
+        <p class="text-lg text-white-700">Registreer begin met lezen wanneer en waar je wilt.</p>
     </div>
     <div class="h-12"></div>
 

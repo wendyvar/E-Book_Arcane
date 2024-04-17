@@ -30,9 +30,10 @@
 
 
 
-                            <button class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none  focus:ring-opacity-50text-white">
+                        <a href="/e-books"><button class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none  focus:ring-opacity-50text-white">
                            E-Books
-                        </button>
+
+                        </button> </a>
                     </div>
                 </div>
 
@@ -59,7 +60,7 @@
         </div>
     </section>
 
-        <section class="bg-gradient-to-r from-yellow-300 to-orange-700">
+        <section class="bg-gradient-to-r from-red-600 to-orange-700">
             <div class="h-12"></div>
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
                 <!-- Text Centered and more compact -->
