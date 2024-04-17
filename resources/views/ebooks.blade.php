@@ -43,61 +43,70 @@
     <section class="py-8 bg-gradient-to-r from-purple-950 to-blue-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <!-- Card 1 -->
-        <div class="bg-white shadow-md rounded-lg overflow-hidden">
-            <img src="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/0/asset/f69da90b1e93/sub-buzz-5094-1608511484-18.jpg" alt="Book 1" class="w-full h-auto">
+        <div class="group bg-white shadow-md rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
+        <img src="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/0/asset/f69da90b1e93/sub-buzz-5094-1608511484-18.jpg" alt="Book 1" class="w-full h-auto">
             <div class="p-4">
                 <h3 class="text-lg font-semibold mb-2">Boek Titel 1</h3>
                 <p class="text-gray-600 mb-2">Auteur Naam</p>
                <div class="flex items-center justify-between">
                     <span class="text-xl font-bold">€19.99</span>
-                    <button class="text-gray-600 hover:text-blue-600">
-                        <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
-                    </button>
-                </div>
+                   <a href="/login" class="text-gray-600 hover:text-blue-600">
+                       <button>
+                           <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
+                       </button>
+                   </a>
+
+               </div>
             </div>
         </div>
 
         <!-- Card 2 -->
-        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <div class="group bg-white shadow-md rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
             <img src="https://m.media-amazon.com/images/I/81TmHlRleJL._AC_UF894,1000_QL80_.jpg" alt="Book 2" class="w-full h-auto">
             <div class="p-4">
                 <h3 class="text-lg font-semibold mb-2">Boek Titel 2</h3>
                 <p class="text-gray-600 mb-2">Auteur Naam</p>
             <div class="flex items-center justify-between">
                     <span class="text-xl font-bold">€14.99</span>
-                    <button class="text-gray-600 hover:text-blue-600">
+                <a href="/login" class="text-gray-600 hover:text-blue-600">
+                    <button>
                         <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
                     </button>
+                </a>
                 </div>
             </div>
         </div>
 
         <!-- Card 3 -->
-        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <div class="group bg-white shadow-md rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
             <img src="https://s26162.pcdn.co/wp-content/uploads/2021/10/The-Catcher-in-the-Rye-First-Edition-cover-E.-Michael-Mitchell.jpg" alt="Book 3" class="w-full h-auto">
             <div class="p-4">
                 <h3 class="text-lg font-semibold mb-2">Boek Titel 3</h3>
                 <p class="text-gray-600 mb-2">Auteur Naam</p>
                 <div class="flex items-center justify-between">
                     <span class="text-xl font-bold">€24.99</span>
-                    <button class="text-gray-600 hover:text-blue-600">
-                        <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
-                    </button>
+                    <a href="/login" class="text-gray-600 hover:text-blue-600">
+                        <button>
+                            <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
 
         <!-- Card 4 -->
-        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <div class="group bg-white shadow-md rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
             <img src="https://ashokbookcentre.com/wp-content/uploads/2021/12/81YyraOaX1L.jpg" alt="Book 4" class="w-full h-auto">
             <div class="p-4">
                 <h3 class="text-lg font-semibold mb-2">Boek Titel 4</h3>
                 <p class="text-gray-600 mb-2">Auteur Naam</p>
               <div class="flex items-center justify-between">
                     <span class="text-xl font-bold">€29.99</span>
-                    <button class="text-gray-600 hover:text-blue-600">
-                        <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
-                    </button>
+                  <a href="/login" class="text-gray-600 hover:text-blue-600">
+                      <button>
+                          <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
+                      </button>
+                  </a>
                 </div>
             </div>
         </div>
@@ -107,61 +116,69 @@
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
         <!-- Card 5 -->
-        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <div class="group bg-white shadow-md rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
             <img src="https://m.media-amazon.com/images/I/71WSzS6zvCL._AC_UF894,1000_QL80_.jpg" alt="Book 1" class="w-full h-auto">
             <div class="p-4">
                 <h3 class="text-lg font-semibold mb-2">Boek Titel 1</h3>
                 <p class="text-gray-600 mb-2">Auteur Naam</p>
               <div class="flex items-center justify-between">
                     <span class="text-xl font-bold">€19.99</span>
-                    <button class="text-gray-600 hover:text-blue-600">
-                        <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
-                    </button>
+                  <a href="/login" class="text-gray-600 hover:text-blue-600">
+                      <button>
+                          <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
+                      </button>
+                  </a>
                 </div>
             </div>
         </div>
 
         <!-- Card 6 -->
-        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <div class="group bg-white shadow-md rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
             <img src="https://m.media-amazon.com/images/I/71t4GuxLCuL._AC_UF894,1000_QL80_.jpg" alt="Book 2" class="w-full h-auto">
             <div class="p-4">
                 <h3 class="text-lg font-semibold mb-2">Boek Titel 2</h3>
                 <p class="text-gray-600 mb-2">Auteur Naam</p>
               <div class="flex items-center justify-between">
                     <span class="text-xl font-bold">€14.99</span>
-                    <button class="text-gray-600 hover:text-blue-600">
-                        <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
-                    </button>
+                  <a href="/login" class="text-gray-600 hover:text-blue-600">
+                      <button>
+                          <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
+                      </button>
+                  </a>
                 </div>
             </div>
         </div>
 
         <!-- Card 7 -->
-        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <div class="group bg-white shadow-md rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
             <img src="https://m.media-amazon.com/images/I/71KWpItR2kL._AC_UF894,1000_QL80_.jpg" alt="Book 3" class="w-full h-auto">
             <div class="p-4">
                 <h3 class="text-lg font-semibold mb-2">Boek Titel 3</h3>
                 <p class="text-gray-600 mb-2">Auteur Naam</p>
                 <div class="flex items-center justify-between">
                     <span class="text-xl font-bold">€24.99</span>
-                    <button class="text-gray-600 hover:text-blue-600">
-                        <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
-                    </button>
+                    <a href="/login" class="text-gray-600 hover:text-blue-600">
+                        <button>
+                            <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
 
         <!-- Card 8 -->
-        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <div class="group bg-white shadow-md rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
             <img src="https://m.media-amazon.com/images/I/71Nw3BYd6EL._AC_UF894,1000_QL80_.jpg" alt="Book 4" class="w-full h-auto">
             <div class="p-4">
                 <h3 class="text-lg font-semibold mb-2">Boek Titel 4</h3>
                 <p class="text-gray-600 mb-2">Auteur Naam</p>
               <div class="flex items-center justify-between">
                     <span class="text-xl font-bold">€29.99</span>
-                    <button class="text-gray-600 hover:text-blue-600">
-                        <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
-                    </button>
+                  <a href="/login" class="text-gray-600 hover:text-blue-600">
+                      <button>
+                          <img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" alt="Add to Cart" class="w-6 h-6">
+                      </button>
+                  </a>
                 </div>
             </div>
         </div>
